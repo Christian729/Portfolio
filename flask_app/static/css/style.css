@@ -1,0 +1,11 @@
+.cont{
+    background-color: black;
+    color: aqua;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+}
