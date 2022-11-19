@@ -1,11 +1,23 @@
 .cont{
+    margin: 10px;
+    padding: 10px;
     background-color: black;
     color: aqua;
+    display: flex;
+    margin-left: 100px;
 }
 
-.row{
+.nav{
+    position: fixed;
+    background-color: black;
+    border-right: 1px solid midnightblue;
     display: flex;
     flex-direction: row;
     color: white;
-    
+    height: 100%;
+    width: 100px;
+    justify-content: space-around;
+    overflow: hidden;
+    left: 0;
 }
+
